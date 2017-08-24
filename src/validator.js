@@ -73,6 +73,13 @@ var _testHook = {
     min_length: function(field, length){
         if (!regexs.numericRegex.test(length)) return false;
         return ( backVal(field) .length >= parseInt(length, 10));
+    },
+    // 指定字段内容是否相同
+    same: function (field, newField) {
+        var value1 = backVal(field);
+        var value2 = backVal(this.fields[newField].element);
+
+        return value1 == value2;
     }
 }
 
