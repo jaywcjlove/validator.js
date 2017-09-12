@@ -125,6 +125,8 @@ Validator.prototype = {
      * @return {[type]}     [JSON]
      */
     validate:function(evt){
+        // 特殊情况直接通过
+        if (this._passes) return this;
 
         this.handles["ok"] = true;
         this.handles["evt"] = evt;
@@ -162,6 +164,10 @@ Validator.prototype = {
             }
         }
 
+        return this;
+    },
+    passes: function () {
+        this._passes = true;
         return this;
     },
     _validateField:function(field){
