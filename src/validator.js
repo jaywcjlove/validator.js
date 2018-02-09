@@ -209,6 +209,10 @@ Validator.prototype = {
             // 解析带参数的验证如 max_length(12)
             if (parts) method = parts[1],param = parts[2];
 
+            if (isEmpty && rules.indexOf('required') === -1) {
+                continue;
+            }
+
             if (typeof _testHook[method] === 'function') {
                 if (!_testHook[method].apply(this, [field, param])) {
                     failed = true;
