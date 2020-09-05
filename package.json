@@ -32,7 +32,7 @@
   "author": "kenny wang <wowohoo@qq.com> (http://JSLite.io)",
   "license": "MIT",
   "devDependencies": {
-    "bannerjs": "1.0.5",
+    "bannerjs": "1.0.7",
     "chai": "4.1.2",
     "karma": "^2.0.4",
     "karma-chai": "0.1.0",
