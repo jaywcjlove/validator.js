@@ -33,7 +33,7 @@
   "license": "MIT",
   "devDependencies": {
     "bannerjs": "1.0.5",
-    "chai": "4.1.2",
+    "chai": "4.3.4",
     "karma": "^2.0.4",
     "karma-chai": "0.1.0",
     "karma-chrome-launcher": "^2.2.0",
