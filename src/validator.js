@@ -11,7 +11,7 @@ var regexs = {
     * 4.右则部分可分为两部分，第一部分为邮件提供商域名地址，第二部分为域名后缀，现已知的最短为2位。最长的为6为。
     * 5.邮件提供商域可以包含特殊字符-、_、.
     */
-    email:/^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$/,
+    email:/^[a-z0-9\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+([._\\-]*[a-z0-9\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*@([a-z0-9\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+[-a-z0-9\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z0-9\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+.){1,63}[a-z0-9\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+$/,
     /**
      * [ip ipv4、ipv6]
      * "192.168.0.0"
