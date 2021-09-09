@@ -34,7 +34,12 @@ describe("validators", function () {
         expect(v.isEmail('wowo@asdf.中国')).to.be.false;
         expect(v.isEmail('wowo@中国.com')).to.be.false;
         expect(v.isEmail('中@qq.com')).to.be.false;
-
+        expect(v.isEmail('wowo@中国.com')).to.be.false;
+        expect(v.isEmail('中@qq.com')).to.be.false;
+        expect(v.isEmail('email-test@universal-acceptance-test.icu')).to.be.true;
+        expect(v.isEmail('email-test@universal-acceptance-test.international ')).to.be.true;
+        expect(v.isEmail('อีเมลทดสอบ@ยูเอทดสอบ.ไทย')).to.be.true;
+        expect(v.isEmail('อีเมลทดสอบ@สวัสดีครับ.องค์กร.ไทย')).to.be.true;
     });
 
     it("isIp() IP验证", function () {
