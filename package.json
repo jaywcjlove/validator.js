@@ -43,7 +43,7 @@
     "mocha": "^5.2.0",
     "onchange": "3.2.1",
     "sync-exec": "0.6.2",
-    "uglify-js": "3.3.10",
+    "uglify-js": "3.14.2",
     "umd": "3.0.1",
     "webpack": "^1.13.0"
   }
