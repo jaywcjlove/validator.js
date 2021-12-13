@@ -37,7 +37,7 @@
   ],
   "devDependencies": {
     "jest-watch-typeahead": "1.0.0",
-    "jest": "27.4.3",
+    "jest": "27.4.5",
     "lerna": "4.0.0",
     "tsbb": "3.5.2"
   }
