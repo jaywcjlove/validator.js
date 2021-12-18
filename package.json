@@ -39,6 +39,6 @@
     "jest-watch-typeahead": "1.0.0",
     "jest": "27.4.3",
     "lerna": "4.0.0",
-    "tsbb": "3.5.2"
+    "tsbb": "3.5.4"
   }
 }
