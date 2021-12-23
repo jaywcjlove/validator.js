@@ -16,7 +16,7 @@
     "@kkt/less-modules": "6.11.0",
     "@kkt/raw-modules": "6.11.0",
     "@kkt/scope-plugin-options": "6.11.0",
-    "@types/react": "17.0.37",
+    "@types/react": "17.0.38",
     "@types/react-dom": "17.0.11",
     "@uiw/react-github-corners": "1.5.3",
     "@uiw/react-markdown-preview": "3.4.5",
