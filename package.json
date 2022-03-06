@@ -40,6 +40,6 @@
   "devDependencies": {
     "jest-watch-typeahead": "1.0.0",
     "lerna": "4.0.0",
-    "tsbb": "3.5.4"
+    "tsbb": "3.7.2"
   }
 }
