@@ -42,8 +42,8 @@
     "assert"
   ],
   "devDependencies": {
-    "jest-watch-typeahead": "~1.1.0",
-    "lerna": "~4.0.0",
-    "tsbb": "~3.7.2"
+    "jest-watch-typeahead": "1.1.0",
+    "lerna": "4.0.0",
+    "tsbb": "3.7.2"
   }
 }
