@@ -19,7 +19,7 @@
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.4",
     "@uiw/react-github-corners": "^1.5.14",
-    "@uiw/react-markdown-preview": "3.4.5",
+    "@uiw/react-markdown-preview": "3.5.1",
     "@uiw/reset.css": "^1.0.6",
     "kkt": "^7.1.2",
     "react": "^18.1.0",
