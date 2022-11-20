@@ -37,7 +37,7 @@
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "~22.0.0",
-    "@rollup/plugin-node-resolve": "~13.3.0",
+    "@rollup/plugin-node-resolve": "~15.0.0",
     "@rollup/plugin-typescript": "~8.3.2",
     "bannerjs": "~2.1.0",
     "rollup": "~2.73.0",
