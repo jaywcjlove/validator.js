@@ -44,7 +44,7 @@
   "devDependencies": {
     "@types/node": "^18.14.1",
     "jest-watch-typeahead": "^2.2.2",
-    "lerna": "^6.6.1",
+    "lerna": "^8.0.0",
     "tsbb": "^4.1.4"
   }
 }
