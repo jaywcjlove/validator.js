@@ -42,7 +42,7 @@
     "assert"
   ],
   "devDependencies": {
-    "@types/node": "^18.14.1",
+    "@types/node": "^22.0.0",
     "jest-watch-typeahead": "^2.2.2",
     "lerna": "^6.6.1",
     "tsbb": "^4.1.4"
